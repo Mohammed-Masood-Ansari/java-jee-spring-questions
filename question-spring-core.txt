@@ -1,0 +1,25 @@
+1.What is Spring?
+2.What is IOC?
+3.What is DI(dependency injection)?
+4.Explain to configure a bean using xml based configuration?
+5.Explain about injecting a value through setter and constructor in spring using xml based configuration?
+6.Explain about injecting a object?
+7.what is difference between bean factory and application context?
+8.Explain different scopes of bean object in spring?
+9.Explain about init and destroy method configuration in xml?
+10.Explain
+@Component
+@Configuration
+@ComponentScan
+@Autowired
+@Value
+@Qualifier
+@Primary
+@Bean
+11.Explain about injecting a value using @Value on 1.variable,2.setter,3.constructor?
+12.Explain about reading the value from the properties file using @Value 
+13.Explain @Autowired on 1.variable, 2.setter, 3.constructor
+14.What is the difference between @qualifier and @primary
+
+
+

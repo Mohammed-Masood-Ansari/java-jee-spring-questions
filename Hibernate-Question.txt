@@ -1,0 +1,70 @@
+Entity Class rules:
+
+Note: We sue Cascade to make sure mapping data will get persist automatic inside Database.
+
+1)class should be public non-abstract class
+2)should have public default /zero parameterised constructor
+3)All variables should be private 
+4)All private variables should have public getter/setters
+5)Declared a variable has primary key using @Id
+
+To Provide Databases Information we should create one folder inside src/main/resources
+
+META-INF folder
+
+then under it persistence.xml -> File
+
+How to find id from hibernate?
+
+BY using find method
+
+find(classname.class,id);
+
+
+1.What is ORM Framework List few Of Them?
+2.What is Hibernate?
+3.What is JPA?
+4.What is Entity What are the rules to create entity class?
+5.Explain 
+
+5.1.Persist()
+5.2.Find()
+5.3.Merge()
+5.4.Remove() 
+
+6.Exlpain @CreationTimeStamp,@UpdateTimeStamp
+7.Explain @GeneratedValue
+8.Explain each of the GenerationType in hibernate.
+9.How to implement autoincrement to a column in hibernate?
+10.What is composite key?
+11.How to create a composite key in hibernate?
+12.Explain @Embeddable, @EmbededId
+13.Explain QueryParameters in hibernate with JPA?
+14.What are the different types of QueryParameters that hibernate with JPA supports? 
+
+15.explain bidirectional mapping with the example for.
+1.OneToOne
+2.OneToMany
+3.ManyToOne
+4.ManyToMany
+
+16.What is the difference between @joincolumn and mappedBy?
+17.explain @jointable?
+18.explain joincolumns and inverseJoinColumns?
+19.what is persistence.xml?
+20.Explain root tag and child tag of persistence.xml?
+
+21.what is persistence unit?
+22.Can we have multiple persistence unit in a single persistence.xml file.If yes explain why we need to have multiple persistence.xml
+23.What is dialect why do we need to maintain in db configuration file. 
+24.What is EntityManagerFactory (explain)?
+25.What is EntityManager(explain)?
+26.WHat is EntityTransaction(explain)?
+27.what is Persistence?
+28.Explain the lifecycle of hibernate with JPA?
+29.What is the difference between save(),persist() and merge()?
+
+30.What is caching?
+31.Explain hibernate caching?
+32.List the different libraries that helps to achieve second level caching?
+33.What is the difference between first and second level caching in hibernate?
